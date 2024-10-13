@@ -281,13 +281,16 @@ ul {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 486px) {
   body {
     padding: 15px;
   }
 
   .section .cities {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .form__submit {
+    display: none;
   }
 }
 

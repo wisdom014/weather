@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <section class="top-banner">
+      <div class="container">
+        <h1>Simple Weather App</h1>
+        <form class="form__group field">
+          <input
+            type="text"
+            class="form__field"
+            placeholder="Search for a weather"
+            autofocus
+          />
+          <label for="name" class="form__label">Search For Any Weather</label>
+          <input type="submit" class="form__submit" value="SUBMIT" />
+          <span class="msg"></span>
+        </form>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <ul class="cities"></ul>
+      </div>
+    </section>
+
+    <footer class="page-footer">
+      <div class="container">
+        &copy; <small>Made by Elijah Akinniyi in 2024</small>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
